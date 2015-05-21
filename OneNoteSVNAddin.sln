@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNoteSVNAddin", "OneNoteSVNAddin\OneNoteSVNAddin.csproj", "{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{32EBC4EF-BA53-4C18-BAF4-19AF66AC237C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SetupedDebug|Any CPU = SetupedDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.SetupedDebug|Any CPU.ActiveCfg = SetupedDebug|Any CPU
+		{E62101AD-50FF-45BE-8E2A-7BF4CC2B2DA7}.SetupedDebug|Any CPU.Build.0 = SetupedDebug|Any CPU
+		{32EBC4EF-BA53-4C18-BAF4-19AF66AC237C}.Debug|Any CPU.ActiveCfg = Debug
+		{32EBC4EF-BA53-4C18-BAF4-19AF66AC237C}.Release|Any CPU.ActiveCfg = Release
+		{32EBC4EF-BA53-4C18-BAF4-19AF66AC237C}.SetupedDebug|Any CPU.ActiveCfg = SetupedDebug
+		{32EBC4EF-BA53-4C18-BAF4-19AF66AC237C}.SetupedDebug|Any CPU.Build.0 = SetupedDebug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

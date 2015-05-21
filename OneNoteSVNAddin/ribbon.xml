@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" loadImage="GetImage">
+  <ribbon>
+    <tabs>
+      <tab id="tabSVNUpdate" label="SVN同步">
+        <group id="groupSVNSetting" label="设置">
+          <button id="buttonSVNSetting" label="同步设置" size="large" screentip="设置SVN同步信息" onAction="ShowSetting" image="Settings.png"/>
+        </group>
+        <group id="groupSVNOperating" label="操作">
+          <button id="buttonUpdate" label="更新" size="large" screentip="从服务器更新笔记本信息" onAction="Update" image="Update.png"/>
+          <button id="buttonCommit" label="同步至服务器" size="large" screentip="将本地笔记本的修改提交到服务器中" onAction="Commit" image="Commit.png"/>
+          <button id="buttonAbout" label="关于" size="large" screentip="同步插件的相关信息" onAction="About" image="About.png"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
